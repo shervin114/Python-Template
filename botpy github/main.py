@@ -1,11 +1,8 @@
 import os
 import discord
 from discord.ext import commands
-from dotenv import load_dotenv
 
-load_dotenv()
-
-TOKEN = os.getenv('TOKEN')
+TOKEN = your token here
 
 intents = discord.Intents.default() # intents here
 intents.members = True
